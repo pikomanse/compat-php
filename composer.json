@@ -1,0 +1,26 @@
+{
+    "name": "pikoman/compat-php",
+    "description": "Pusher's PHP library (pusher/pusher-php-server) on Pikoman: the same trigger, triggerBatch and authorizeChannel, signed with Ed25519 keys.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["pusher", "pusher-php-server", "websockets", "realtime", "broadcasting", "pikoman"],
+    "homepage": "https://pikoman.se/switch-from-pusher/",
+    "support": {
+        "email": "hello@pikoman.se",
+        "issues": "https://github.com/pikomanse/compat-php/issues",
+        "source": "https://github.com/pikomanse/compat-php"
+    },
+    "version": "0.1.0",
+    "require": {
+        "php": "^8.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-sodium": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pikoman\\Compat\\": "src/"
+        }
+    }
+}
